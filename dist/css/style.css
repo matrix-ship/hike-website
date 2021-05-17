@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Source Sans Pro";
+  scroll-behavior: smooth;
+}
+
+#homePage .homePage__landingPage {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/images/background 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#homePage .navBar__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0px;
+}
+
+#homePage .navBar__box .box__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#homePage .navBar__box .box__menu a {
+  text-decoration: none;
+}
+
+#homePage .navBar__box .box__menu li {
+  color: #ffffff;
+  list-style: none;
+  margin: 0px 20px;
+}
+
+#homePage .title {
+  margin: 0px 100px;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#homePage .title .heading {
+  font-size: 32px;
+  width: 50%;
+  color: #ffffff;
+}
+
+#homePage .title .heading__2 {
+  font-size: 24px;
+  width: 28%;
+  margin-top: 20px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+#homePage .title .download__button .download {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 10px 40px;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#features {
+  width: 100%;
+}
+
+#features .features__box {
+  margin: 50px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#features .features__box .features__heading {
+  font-size: 32px;
+}
+
+#features .features__box .features__heading_2 {
+  width: 50%;
+  text-align: center;
+  color: #6d6d6d;
+  margin-top: 20px;
+}
+
+#features .features__box .features__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#features .features__box .features__card .card {
+  width: 400px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 80px 20px;
+  padding: 30px;
+}
+
+#features .features__box .features__card .explore img {
+  width: 41px;
+  height: 41px;
+}
+
+#features .features__box .features__card .explore .card__title {
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+#features .features__box .features__card .explore .card__paragraph {
+  color: #6d6d6d;
+  width: 90%;
+  margin-top: 10px;
+}
+
+#features .features__box .features__card .ui__interface img {
+  width: 41px;
+  height: 41px;
+}
+
+#features .features__box .features__card .ui__interface .card__title {
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+#features .features__box .features__card .ui__interface .card__paragraph {
+  color: #6d6d6d;
+  width: 90%;
+  margin-top: 10px;
+}
+
+#downloadPage .download__box {
+  margin: 50px 160px;
+}
+
+#downloadPage .box__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#downloadPage .box__main .download__heading {
+  font-size: 44px;
+}
+
+#downloadPage .box__main .download__heading span {
+  text-decoration: underline;
+}
+
+#downloadPage .box__main .download__heading_2 {
+  width: 60%;
+  text-align: left;
+  color: #6d6d6d;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+#downloadPage .box__main .download_page_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 15px 50px;
+  font-size: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#downloadPage .box__main .download_page_button .download__text {
+  margin-left: 10px;
+}
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 30px 50px;
+}
+
+@media (min-width: 360px) {
+  #homePage .homePage__landingPage {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("/images/background 2.png");
+    background-size: cover;
+  }
+  #homePage .navBar__box {
+    margin: 0px 50px;
+    padding: 30px 0px;
+  }
+  #homePage .navBar__box .box__logo {
+    width: 200px;
+  }
+  #homePage .navBar__box .box__menu {
+    display: none;
+  }
+  #homePage .title {
+    margin: 0px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 10%;
+  }
+  #homePage .title .heading {
+    font-size: 26px;
+    text-align: center;
+    width: 100%;
+  }
+  #homePage .title .heading__2 {
+    width: 90%;
+    text-align: center;
+    font-size: x-larger;
+  }
+  #homePage .title .download__button .download {
+    padding: 10px 100px;
+    margin-top: 30px;
+  }
+}
+
+#features {
+  width: 100%;
+}
+
+#features .features__box {
+  margin: 50px 10px;
+}
+
+#features .features__box .features__heading {
+  font-size: 30px;
+}
+
+#features .features__box .features__heading_2 {
+  width: 90%;
+}
+
+#features .features__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#downloadPage .download__box {
+  margin: 50px 10px;
+}
+
+#downloadPage .box__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#downloadPage .box__main .main__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 80px;
+}
+
+#downloadPage .box__main .download__heading {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+}
+
+#downloadPage .box__main .download__heading_2 {
+  text-align: center;
+  width: 90%;
+}
+/*# sourceMappingURL=style.css.map */
